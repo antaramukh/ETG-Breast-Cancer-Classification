@@ -38,10 +38,12 @@ An artificial neuron network (ANN) is a computational model based on the structu
 
 ### Keras
 Keras is an API designed for human beings, not machines. Keras follows best practices for reducing cognitive load: it offers consistent & simple APIs, it minimizes the number of user actions required for common use cases, and it provides clear & actionable error messages.
+
 For this project, we have used Keras which is a high-level Neural Networks API built on top of low level neural networks APIs like Tensorflow and Theano. There are two ways to build Keras models: sequential and functional.
 
 **1. Sequential API:** It allows you to create models layer-by-layer for most problems. It is limited in that it does not allow you to create models that share layers or have multiple inputs or outputs. We use Sequectial model for this project.
-2. Functional API: It is more flexible than the sequential API. It is more powerful than the sequential API in the sense branching or sharing of layers is allowed here. And also it can have multiple inputs and outputs.
+
+**2. Functional API:** It is more flexible than the sequential API. It is more powerful than the sequential API in the sense branching or sharing of layers is allowed here. And also it can have multiple inputs and outputs.
 
 ### Activations
 In machine learning, activation function is a special function used to find whether a specific neuron is activated or not. Basically, the activation function does a nonlinear transformation of the input data and thus enable the neurons to learn better. Output of a neuron depends on the activation function. In this project, we use relu and sigmoid function.
