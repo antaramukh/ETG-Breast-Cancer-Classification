@@ -2,13 +2,18 @@
 
 Breast Cancer Classification with Deep Learning is a Machine Learning project done as part of my Internship with Elite Techno Groups.
 
+
+![68747470733a2f2f656c697465746563686e6f67726f75702e7370617965652e636f6d2f6c6f676f2e706e67](https://user-images.githubusercontent.com/82995717/134895365-e9a18dc5-f6ce-4707-b8f7-882e2ebb143c.png)
+
+## About the Project
+
 Scikit-Learn provides seven datasets, which they call toy datasets. These datasets are powerful and serve as a strong starting point for learning ML. Breast Cancer Wisconsin (diagnostic) dataset is one of them and the dataset we use for this project.
 
 Breast Cancer Wisconsin (diagnostic) dataset: To diagnose cancer scans as benign (does not spread to the rest of the body) or malignant (spreads to rest of the body).
 
 The dataset is loaded and store it into a variable called data. The load function (load_breast_cancer()) don’t return data in the tabular format. They return a Bunch object. Think of a Bunch object as Scikit-Learn’s fancy name for a dictionary.
 
-#### Keys: 
+### Keys
 
 **1. data** is all the feature data (the attributes of the scan that help us identify if the tumor is malignant or benign, such as radius, area, etc.) in a NumPy array.
 
