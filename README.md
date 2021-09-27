@@ -1,6 +1,6 @@
 # ETG-Breast-Cancer-Detection
 
-Breast Cancer Classification with Deep Learning as part of Elite Techno Groups Internship
+Breast Cancer Classification with Deep Learning is a Machine Learning project done as part of my Internship with Elite Techno Groups.
 
 Scikit-Learn provides seven datasets, which they call toy datasets. These datasets are powerful and serve as a strong starting point for learning ML. Breast Cancer Wisconsin (diagnostic) dataset is one of them and the dataset we use for this project.
 
@@ -26,20 +26,20 @@ From the given information of the breast cancer dataset , we need to classify wh
 
 Let us first look at some of the concepts to understand the project better.
 
-###What is Deep learning?
+### What is Deep learning?
 Deep Learning is a subfield of machine learning concerned with algorithms inspired by the structure and function of the brain called artificial neural networks. Deep learning is a machine learning technique that teaches computers to do what comes naturally to humans: learn by example.
 Keras is an API designed for human beings, not machines. Keras follows best practices for reducing cognitive load: it offers consistent & simple APIs, it minimizes the number of user actions required for common use cases, and it provides clear & actionable error messages.
 
-###What are artificial neural networks?
+### What are artificial neural networks?
 An artificial neuron network (ANN) is a computational model based on the structure and functions of biological neural networks. Information that flows through the network affects the structure of the ANN because a neural network changes - or learns, in a sense - based on that input and output.
 
-###Keras
+### Keras
 For this project, we have used Keras which is a high-level Neural Networks API built on top of low level neural networks APIs like Tensorflow and Theano. There are two ways to build Keras models: sequential and functional.
 
 **1. Sequential API:** It allows you to create models layer-by-layer for most problems. It is limited in that it does not allow you to create models that share layers or have multiple inputs or outputs. We use Sequectial model for this project.
 2. Functional API: It is more flexible than the sequential API. It is more powerful than the sequential API in the sense branching or sharing of layers is allowed here. And also it can have multiple inputs and outputs.
 
-###Activations
+### Activations
 In machine learning, activation function is a special function used to find whether a specific neuron is activated or not. Basically, the activation function does a nonlinear transformation of the input data and thus enable the neurons to learn better. Output of a neuron depends on the activation function. In this project, we use relu and sigmoid function.
 
 **relu:** Applies the rectified linear unit activation function.
