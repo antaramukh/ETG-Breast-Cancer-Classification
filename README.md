@@ -10,17 +10,21 @@ The dataset is loaded and store it into a variable called data. The load functio
 
 #### Keys: 
 
-**data** is all the feature data (the attributes of the scan that help us identify if the tumor is malignant or benign, such as radius, area, etc.) in a NumPy array
+**1. data** is all the feature data (the attributes of the scan that help us identify if the tumor is malignant or benign, such as radius, area, etc.) in a NumPy array.
 
-**target** is the target data (the variable you want to predict, in this case whether the tumor is malignant or benign) in a NumPy array,
+**2. target** is the target data (the variable you want to predict, in this case whether the tumor is malignant or benign) in a NumPy array.
 
 These two keys are the actual data. The remaining keys (below), serve a descriptive purpose. All of Scikit-Learn datasets are divided into data and target. data represents the features, which are the variables that help the model learn how to predict. target includes the actual labels. In our case, the target data is one column classifies the tumor as either 0 indicating malignant or 1 for benign.
 
-**frame** is a DataFrame of shape (569, 31) and is only present when as_frame=True. DataFrame with data and target.
-**feature_names** are the names of the feature variables, in other words names of the columns in data
-**target_names** is the name(s) of the target variable(s), in other words name(s) of the target column(s)
-**DESCR** , short for DESCRIPTION, is a description of the dataset
-**filename** is the path to the actual file of the data in CSV format.
+**3. frame** is a DataFrame of shape (569, 31) and is only present when as_frame=True. DataFrame with data and target.
+
+**4. feature_names** are the names of the feature variables, in other words names of the columns in data.
+
+**5. target_names** is the name(s) of the target variable(s), in other words name(s) of the target column(s).
+
+**6. DESCR** , short for DESCRIPTION, is a description of the dataset.
+
+**7. filename** is the path to the actual file of the data in CSV format.
 
 From the given information of the breast cancer dataset , we need to classify whether it is a malignant cancer or benign cancer.
 
@@ -28,12 +32,12 @@ Let us first look at some of the concepts to understand the project better.
 
 ### What is Deep learning?
 Deep Learning is a subfield of machine learning concerned with algorithms inspired by the structure and function of the brain called artificial neural networks. Deep learning is a machine learning technique that teaches computers to do what comes naturally to humans: learn by example.
-Keras is an API designed for human beings, not machines. Keras follows best practices for reducing cognitive load: it offers consistent & simple APIs, it minimizes the number of user actions required for common use cases, and it provides clear & actionable error messages.
 
 ### What are artificial neural networks?
 An artificial neuron network (ANN) is a computational model based on the structure and functions of biological neural networks. Information that flows through the network affects the structure of the ANN because a neural network changes - or learns, in a sense - based on that input and output.
 
 ### Keras
+Keras is an API designed for human beings, not machines. Keras follows best practices for reducing cognitive load: it offers consistent & simple APIs, it minimizes the number of user actions required for common use cases, and it provides clear & actionable error messages.
 For this project, we have used Keras which is a high-level Neural Networks API built on top of low level neural networks APIs like Tensorflow and Theano. There are two ways to build Keras models: sequential and functional.
 
 **1. Sequential API:** It allows you to create models layer-by-layer for most problems. It is limited in that it does not allow you to create models that share layers or have multiple inputs or outputs. We use Sequectial model for this project.
