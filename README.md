@@ -1,4 +1,4 @@
-# ETG-Breast-Cancer-Detection
+# ETG-Breast-Cancer-Classification
 
 Breast Cancer Classification with Deep Learning is a Machine Learning project done as part of my Internship with Elite Techno Groups.
 
