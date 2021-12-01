@@ -11,7 +11,7 @@ Scikit-Learn provides seven datasets, which they call toy datasets. These datase
 
 Breast Cancer Wisconsin (diagnostic) dataset: To diagnose cancer scans as benign (does not spread to the rest of the body) or malignant (spreads to rest of the body).
 
-The dataset is loaded and store it into a variable called data. The load function (load_breast_cancer()) don’t return data in the tabular format. They return a Bunch object. Think of a Bunch object as Scikit-Learn’s fancy name for a dictionary.
+The dataset is loaded and store it into a variable called data. The load functions (load_breast_cancer()) don't return data in the tabular format. They return a Bunch object. Think of a Bunch object as Scikit-Learn’s fancy name for a dictionary.
 
 ### Keys
 
@@ -46,7 +46,7 @@ Keras is an API designed for human beings, not machines. Keras follows best prac
 
 For this project, we have used Keras which is a high-level Neural Networks API built on top of low level neural networks APIs like Tensorflow and Theano. There are two ways to build Keras models: sequential and functional.
 
-**1. Sequential API:** It allows you to create models layer-by-layer for most problems. It is limited in that it does not allow you to create models that share layers or have multiple inputs or outputs. We use Sequectial model for this project.
+**1. Sequential API:** It allows you to create models layer-by-layer for most problems. It is limited, in that, it does not allow you to create models that share layers or have multiple inputs or outputs. We use Sequential model for this project.
 
 **2. Functional API:** It is more flexible than the sequential API. It is more powerful than the sequential API in the sense branching or sharing of layers is allowed here. And also it can have multiple inputs and outputs.
 
